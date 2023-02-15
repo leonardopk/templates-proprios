@@ -61,6 +61,7 @@ body main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.399);
+    line-height: 2em;
 }
 
 body main h1 {
@@ -83,15 +84,18 @@ body main img {
     margin-right: auto;
 }
 
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #video {
     background-color: #03863c;
-    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 #caixa h3 {
@@ -99,7 +103,7 @@ iframe {
     color: #fff;
     border-radius: 10px 10px 0px 0px;
     padding: 8px;
-    margin: 0;
+    margin: -10px -10px 0px -10px;
     font-size: 20px;
 }
 
@@ -107,7 +111,9 @@ iframe {
     background-color: #C5EBD6;
     border-radius: 10px;
     padding: 0px 10px 10px 10px;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #listacaixas {
@@ -119,6 +125,5 @@ footer {
     background-color: black;
     color: #fff;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin-bottom: -20px;
 }
