@@ -10,6 +10,7 @@ header {
     color: #ffffff;
     text-align: center;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.393);
+    height: 230px;
 }
 
 #txtcabeçalho {
@@ -33,19 +34,13 @@ nav{
 }
 
 nav p {
-    margin-left: 10px;
-    margin-right: 20px;
+    padding: 10px;
 }
 
 nav p:hover {
     background-color: #84e1ac73;
     transition: 0.5s;
     border-radius: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
 }
 
 body {
