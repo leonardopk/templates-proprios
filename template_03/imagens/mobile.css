@@ -1,0 +1,37 @@
+/* Css apenas para mobile (mobile */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/back-phone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.649);
+    width: 85vw;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.548);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img#pc {display: none;}
+img#print {display: none;}
+img#tablet {display: none;}
+img#tv {display: none;}

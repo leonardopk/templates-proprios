@@ -1,0 +1,72 @@
+/* Css para todas as outras midias 
+
+Tipycal device breakpoints dos dispositivos hj:
+-----------------------------------------------
+481px — 768px   telas pequenas e celular
+769px — 992px   p/ tablets
+992px — 1200px   p/ Desktops
+1201px - ...   p/ telas grandes
+
+para celular já foi feito no arquivo mobile.css, então agora devo fazer os outros.
+*/
+
+@media print {
+    main {
+        border: 1px solid black;
+        width: 500px;
+    }
+
+    body h1 {
+        color: black;
+    }
+
+    body::after {
+        content: 'Impressão não inclui imagem de fundo.';
+    }
+
+    img#tablet {display: none;}
+    img#pc {display: none;}
+    img#print {display: block;}
+    img#mobile {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /* Tablets */
+    body {
+        background-image: url(imagens/back-tablet.jpg);
+    }
+    
+    img#tablet {display: block;}
+    img#pc {display: none;}
+    img#print {display: none;}
+    img#mobile {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Desktops */
+    body {
+        background-image: url(imagens/back-pc.jpg);
+    }
+
+    img#tablet {display: none;}
+    img#pc {display: block;}
+    img#print {display: none;}
+    img#mobile {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 1201px) {
+     /* tvs */
+     body {
+        background-image: url(imagens/back-tv.jpg);
+     }
+
+    img#tablet {display: none;}
+    img#pc {display: none;}
+    img#print {display: none;}
+    img#mobile {display: none;}
+    img#tv {display: block;}
+   
+}
