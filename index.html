@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            background-color: blueviolet;
+            position: relative;
+        }
+
+        main {
+            width: 60vw;
+            height: 200px;
+            background-color: azure;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 18px;
+        }
+
+        #foto {
+            width: 20vw;
+            height: 200px;
+            display: inline-block;
+            background-image: url(template_04/imagens/pattern-building.jpg);
+            background-size: cover;
+            border-radius: 18px 0px 0px 18px;
+        }
+
+        #caixa {
+            width: 39vw;
+            height: 200px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="foto"></div>
+        <div id="caixa"></div>
+    </main>
+</body>
+</html>

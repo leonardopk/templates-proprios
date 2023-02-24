@@ -1,5 +1,10 @@
 /*   Corpo, main e imagem   */
 
+@font-face {
+    font-family: 'modern';
+    src: url(fontes/Quicksand-Regular.otf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -28,6 +33,7 @@ main {
     height: 180px;
     background-size: cover;
     background-position: top center;
+    display: block;
 }
 
 /*   Texto do login abaixo da imagem   */
@@ -40,7 +46,8 @@ main {
 #login h1 {
     text-align: center;
     margin: 8px;
-    
+    font-family: 'modern';
+    font-weight: 900;
 }
 
 #login p {
@@ -56,6 +63,7 @@ main {
     margin: 5px;
     color: #fff;
     border-radius: 8px;
+    display: block;
 
 }
 
@@ -88,6 +96,18 @@ main {
 }
 
 #recovery p{
-    border: 1px solid #4e8d87;
+    border: 1px solid #4a847e;
     color: #3f716c;
+}
+
+#entrar p:hover {
+    background-color: #3f716c;
+    color: #fff;
+    cursor: pointer;
+}
+
+#recovery p:hover {
+    cursor: pointer;
+    background-color: #79d9d1;
+    color: #fff;
 }
