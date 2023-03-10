@@ -154,6 +154,30 @@ body {
         grid-template-columns: auto;
         grid-auto-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto ;
     }
+
+    .container.about .about-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container.about .about-content img {
+        width: 80%;
+    }
+
+    .container.about .about-content .history-content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .container.banner h1 {
+        font-size: 11vw;
+    }
+
+    .container.banner a {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width: 420px) {
