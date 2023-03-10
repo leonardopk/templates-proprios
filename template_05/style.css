@@ -155,6 +155,10 @@ body {
         grid-auto-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto ;
     }
 
+    .container.banner {
+        background-attachment: unset;
+    }
+
     .container.about .about-content {
         flex-direction: column;
         align-items: center;
